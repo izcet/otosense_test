@@ -16,4 +16,8 @@ http://portaudio.com/docs/v19-doxydocs/compile_mac_coreaudio.html
 
 http://portaudio.com/docs/v19-doxydocs/paex__record_8c.html
 
+http://portaudio.com/docs/v19-doxydocs/api_overview.html
 
+http://portaudio.com/docs/v19-doxydocs/portaudio_8h.html#abf9f2f82da95553d5adb929af670f74b
+
+http://portaudio.com/docs/v19-doxydocs/portaudio_8h.html#a443ad16338191af364e3be988014cbbe
