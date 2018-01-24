@@ -13,8 +13,8 @@ OBJ_FILE	=	$(SRC_FILE:.c=.o)
 OBJS		=	$(addprefix $(OBJ_DIR)/, $(OBJ_FILE))
 
 PORTAUDIO_DIR	=	portaudio
-PORTAUDIO_LIB	=	libportaudio.a
-PORTAUDIO_INC	=	include
+PORTAUDIO_LIB	=	lib/libportaudio.a
+PORTAUDIO_INC	=	include/
 PORTAUDIO		=	$(PORTAUDIO_DIR)/$(PORTAUDIO_LIB)
 
 
@@ -25,8 +25,7 @@ INC_DIR		=	-I $(PORTAUDIO_DIR)/$(PORTAUDIO_INC) -I inc
 all: $(PORTAUDIO) $(NAME)
 
 $(NAME): $(SRCS) | $(OBJS)
-	$(CC) $(FLAGS) $(PORTAUDIO) $(OBJS) $(INC_DIR) -o $(NAME) #WARNING: will not compile on linux unless the library is at the end of the line
-
+	$(CC) $(FLAGS) $(PORTAUDIO) $(OBJS) $(INC_DIR) -o $(NAME) 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c | $(OBJ_DIR)
 	@$(CC) -c $^ $(CFLAGS) $(INC_DIR) -o $@
 

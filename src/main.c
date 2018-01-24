@@ -2,7 +2,7 @@
 
 int     exit_and_close(int ret)
 {
-  Pa_terminate();
+  Pa_Terminate();
   return (ret);
 }
 
