@@ -6,7 +6,7 @@ XFLAGS		=	#-flags -for -X
 FLAGS		=	$(CFLAGS) $(XFLAGS)
 
 SRC_DIR		=	src
-SRC_FILE	=	main.c #TODO
+SRC_FILE	=	main.c
 SRCS		=	$(addprefix $(SRC_DIR)/, $(SRC_FILE))
 
 OBJ_DIR		=	obj
