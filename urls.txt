@@ -2,3 +2,18 @@ https://www.google.com/search?num=20&newwindow=1&ei=NNtoWp3yLszYjwPn-6DQDQ&q=c+h
 
 http://equalarea.com/paul/alsa-audio.html
 
+https://stackoverflow.com/questions/37529/simple-audio-input-api-on-a-mac
+
+http://www.portaudio.com/
+
+http://www.portaudio.com/download.html
+
+http://www.portaudio.com/usinggit.html
+
+https://app.assembla.com/spaces/portaudio/git/source
+
+http://portaudio.com/docs/v19-doxydocs/compile_mac_coreaudio.html
+
+http://portaudio.com/docs/v19-doxydocs/paex__record_8c.html
+
+
